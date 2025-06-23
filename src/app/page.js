@@ -6,12 +6,10 @@ import Hero from "@/components/Hero";
 gsap.registerPlugin(ScrollTrigger,SplitText)
 export default function Home() {
   return (
-   <main>
-    <Navbar/>
-    <Hero/>
-    <div className=" h-dvh bg-black">
-
-    </div>
-   </main>
+    <main>
+      <Navbar />
+      <Hero />
+      <div className=" h-dvh bg-black"></div>
+    </main>
   );
 }
